@@ -137,7 +137,8 @@ sealed class QsbSearchProvider(
             Iceraven,
             Startpage,
             Mull,
-            Kagi,
+            KagiWeb,
+            KagiApp,
         )
 
         /**

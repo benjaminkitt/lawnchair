@@ -364,7 +364,7 @@ data object DuckDuckGo : WebSearchProvider() {
  * Paid, ad-free search engine.
  */
 data object Kagi : WebSearchProvider() {
-    override var label = R.string.search_provider_kagi
+    override var label = R.string.search_provider_kagi_web
 
     override val iconRes = R.drawable.ic_kagi
 
