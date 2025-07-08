@@ -16,7 +16,7 @@ plugins {
     id 'com.google.protobuf' version "0.9.5"
     id 'app.cash.licensee' version "1.13.0"
     id 'dev.rikka.tools.refine' version "4.4.0"
-    id 'com.diffplug.spotless' version '7.0.4'
+    id 'com.diffplug.spotless' version '7.1.0'
 }
 
 
@@ -406,7 +406,7 @@ dependencies {
     implementation 'androidx.compose.material3:material3-window-size-class'
     implementation "androidx.activity:activity-compose:1.10.1"
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.9.1"
-    implementation "androidx.navigation:navigation-compose:2.9.0"
+    implementation "androidx.navigation:navigation-compose:2.9.1"
     implementation "androidx.constraintlayout:constraintlayout:2.2.1"
     implementation "androidx.palette:palette-ktx:1.0.0"
     implementation "androidx.slice:slice-core:1.1.0-alpha02"
@@ -427,6 +427,7 @@ dependencies {
     def retrofitVersion = "3.0.0"
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-kotlinx-serialization:$retrofitVersion"
+    implementation "com.squareup.okhttp3:okhttp:5.1.0"
 
     def roomVersion = '2.7.2'
     implementation "androidx.room:room-runtime:$roomVersion"
